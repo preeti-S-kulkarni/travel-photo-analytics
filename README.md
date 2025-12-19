@@ -23,3 +23,18 @@ to understand travel behavior, detect trips automatically, and generate AI-drive
 ---
 
 ## 🏗️ Project Structure
+Travel-photo-analytics/
+├── data/
+│ ├── raw_photos/ # Raw photos (excluded from Git)
+│ └── metadata/
+│ └── metadata_public_sample.csv
+│
+├── notebooks/
+│ └── 01_exif_extraction.ipynb # Data ingestion notebook
+│
+├── utils/
+│ └── exif_utils.py # Reusable EXIF extraction logic
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
