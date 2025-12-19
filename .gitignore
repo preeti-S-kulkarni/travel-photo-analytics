@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Private data
+data/raw_photos/
+data/metadata/metadata.csv
+data/metadata/metadata.parquet
+data/metadata/metadata_public.csv
